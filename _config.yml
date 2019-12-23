@@ -16,14 +16,15 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    # devto: jekyll
+    rss                  : rss
+    github               : esovm
+    linkedin             : writeonly-pl
+    facebook             : WriteOnlyPL
+    instagram            : degustujacaistota
+    twitter              : TheKamilAdam
+    devto                : KamilAdam
     # dribbble: jekyll
-    # facebook: jekyll
     # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -49,8 +50,11 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
+ - index.md
+ - README.md
+ - CODE_OF_CONDUCT.md
 
 # Build settings
 theme: minima
@@ -58,3 +62,8 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+edit_url: https://github.com/esovm/minima
+headings_form_titles:
+  enabled                : false
+
