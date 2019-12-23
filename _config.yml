@@ -6,6 +6,8 @@ description: > # this means to ignore newlines until "show_excerpts:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
+edit_url: https://github.com/esovm/minima
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -15,8 +17,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: TheKamilAdam
+    github: esovm
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
@@ -41,9 +43,11 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
-
+header_pages:
+ - about.md
+ - index.md
+ - README.md
+ - CODE_OF_CONDUCT.md
 # Build settings
 theme: minima
 
